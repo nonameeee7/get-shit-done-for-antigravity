@@ -8,12 +8,18 @@
 
 > A spec-driven, context-engineered development methodology for Google Antigravity AI.
 
-## Quick Install (Copy & Paste)
+## Quick Install
 
-Paste this into your Antigravity agent:
+Run this in your terminal:
 
+```bash
+npx gsd-kit --global
 ```
-Clone https://github.com/nonameeee7/get-shit-done-for-antigravity to ~/.agent/
+
+Or clone manually:
+
+```bash
+git clone https://github.com/nonameeee7/get-shit-done-for-antigravity.git ~/.agent/
 ```
 
 Then run in Antigravity:
@@ -23,7 +29,13 @@ Then run in Antigravity:
 
 ## Installation
 
-### Option 1: Clone Manually
+### Option 1: npm (Recommended)
+
+```bash
+npx gsd-kit --global
+```
+
+### Option 2: Clone Manually
 
 ```bash
 # Clone the repo
@@ -33,7 +45,7 @@ git clone https://github.com/nonameeee7/get-shit-done-for-antigravity.git ~/.age
 cp -r get-shit-done-for-antigravity/.agent/ /your/project/
 ```
 
-### Option 2: Download & Extract
+### Option 3: Download & Extract
 
 1. Download: https://github.com/nonameeee7/get-shit-done-for-antigravity/archive/main.zip
 2. Extract to your `.agent/` folder
@@ -51,6 +63,8 @@ After installation, run in Antigravity:
 ```
 
 ## All Commands
+
+### Workflows
 
 | Command | Description |
 |---------|-------------|
@@ -75,6 +89,24 @@ After installation, run in Antigravity:
 | `/check-todos` | List todos |
 | `/map-codebase` | Analyze codebase |
 | `/help` | Show all commands |
+
+### Skills (Sub-Agents)
+
+GSD includes 11 specialized skills for different tasks:
+
+| Skill | Description |
+|-------|-------------|
+| `gsd-planner` | Creates executable phase plans with task breakdown |
+| `gsd-executor` | Executes plans with atomic commits |
+| `gsd-debugger` | Systematic debugging with root cause analysis |
+| `gsd-verifier` | Verifies work against requirements |
+| `gsd-roadmapper` | Creates phase-based roadmaps |
+| `gsd-phase-researcher` | Researches domain for specific phase |
+| `gsd-project-researcher` | Researches stack, features, architecture |
+| `gsd-plan-checker` | Verifies plans achieve goals |
+| `gsd-codebase-mapper` | Analyzes existing codebase |
+| `gsd-integration-checker` | Verifies external integrations |
+| `gsd-research-synthesizer` | Synthesizes research outputs |
 
 ## Project Structure
 
