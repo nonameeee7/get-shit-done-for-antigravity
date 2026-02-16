@@ -242,7 +242,7 @@ function isGsdWorkflow(filename) {
     'resume-work', 'update', 'settings', 'set-profile',
     'audit-milestone', 'plan-milestone-gaps', 'reapply-patches',
     'add-todo', 'check-todos', 'list-phase-assumptions',
-    'help', 'join-discord'
+    'help'
   ];
   return gsdWorkflows.some(w => filename.startsWith(w));
 }
@@ -373,7 +373,6 @@ function install(isGlobal) {
   ${cyan}Resources:${reset}  ${locationLabel}/get-shit-done/
 
   ${dim}Run /help in Antigravity to see available workflows.${reset}
-  ${dim}Join the community: https://discord.gg/5JJgD5svVS${reset}
 `);
 }
 

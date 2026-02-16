@@ -1,6 +1,6 @@
 {
   "name": "gsd-kit",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Get Shit Done - A spec-driven development system for Google Antigravity",
   "main": "bin/install.js",
   "bin": {
@@ -17,15 +17,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ygsgsd/get-shit-done-antigravity"
+    "url": "https://github.com/nonameeee7/get-shit-done-for-antigravity"
   },
-  "author": "Yash <ygsgsd@proton.me>",
+  "author": "yash <nonameeee7@github.com>",
   "license": "MIT",
   "engines": {
     "node": ">=16.0.0"
   },
   "bugs": {
-    "url": "https://github.com/ygsgsd/get-shit-done-antigravity/issues"
+    "url": "https://github.com/nonameeee7/get-shit-done-for-antigravity/issues"
   },
-  "homepage": "https://github.com/ygsgsd/get-shit-done-antigravity#readme"
+  "homepage": "https://github.com/nonameeee7/get-shit-done-for-antigravity#readme"
 }

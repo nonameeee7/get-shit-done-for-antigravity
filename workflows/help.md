@@ -27,7 +27,6 @@ models: sonnet
 | `/progress` | Where am I? What's next? |
 | `/help` | Show all commands and usage guide |
 | `/update` | Update GSD with changelog preview |
-| `/join-discord` | Join the GSD Discord community |
 
 ## Brownfield
 
